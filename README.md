@@ -20,6 +20,7 @@ GET /metrics/progress
 ```
 
 Использую SHA-256 хэш функцию, она поддерживается в версии curl-8.6.0_3. Подробности [тут](https://github.com/curl/curl/issues/6302) и [тут](https://github.com/curl/curl/issues/13056)
+
 Примеры curl запросов:
 ```
 $ curl -X POST http://localhost:8000/auth/register -H 'Content-Type: application/json' -d '{ "username":"newconfig2", "password": "newconfig2" }'
